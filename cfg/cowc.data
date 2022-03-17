@@ -1,0 +1,6 @@
+classes= 5
+train  = /media/andrew/OS/COWC/cowc-m/datasets/DetectionPatches_256x256/train.txt
+valid  = /media/andrew/OS/COWC/cowc-m/datasets/DetectionPatches_256x256/test.txt
+names = data/cowc.names
+backup = backup/
+
