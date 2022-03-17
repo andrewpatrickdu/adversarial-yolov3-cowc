@@ -18,7 +18,11 @@ This work is based on the following paper: https://openaccess.thecvf.com/content
 ## Getting Started
 We used Python 3.7 to run our code and Anaconda to install the following libraries:
 
-* dddd
+* conda install pytorch==1.7.1 torchvision==0.8.2 cudatoolkit==10.1 -c pytorch
+* pip install tensorboardX tensorboard
+* conda install matplotlib
+
+
 
 
 
