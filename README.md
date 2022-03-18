@@ -60,7 +60,7 @@ python train_patch.py sidestreet experiment01
 After you have generated a patch, you can digitally test your patch with ```digital_test.py```. Open the script and adjust the 'attack settings' accordingly. More details are provided in the script.
 
 ### Physically testing the patch
-We provide some data that comprises of images of our patches in the scene of attack (sidestreet and carpark). You can evalaute these images with ```physical_test.py```.
+We provide some data that comprises of images of our patches in the scene of attack (sidestreet and carpark). You can evalaute these images with ```physical_test.py```. Open the script and adjust the 'attack settings' accordingly. More details are provided in the script.
 
 
 
