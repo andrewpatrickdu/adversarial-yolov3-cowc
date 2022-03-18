@@ -43,7 +43,11 @@ There are three main phython scripts used to optimise an adversarial patch:
 
 * patch_config.py - contains the training parameters of the patch such as what scene to attack, to apply weather transformations or not, patch size, number of patches, number of training epochs, learning rate, etc.
 * load_data.py - defines important functions used in the patch optimisation process such as extracting the maximum objectness score from an image, calculating NPS and TV, and patch transformation (geometric and colour space).
-* 
+* train_patch.py - used to optimise an adversarial patch. 
+
+```
+python train_patch.py {experiment} {folder_name}
+```
 
 
 ### Digitally testing the patch
