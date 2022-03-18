@@ -28,13 +28,8 @@ conda install matplotlib
 conda install -c conda-forge tqdm
 ```
 
-### Pretrained weights
-You can download the YOLOv3 COWC pretrained weights at: 
-
-### Datasets
-You can download the sidestreet and carpark datasets at: 
-
-We also provide data from our physical-world test at:
+### Pretrained weights and datasets
+You can download the YOLOv3 COWC pretrained weights, sidestreet and carpark datasets, and data from our physical-world test at: 
 
 NOTE: Make sure you add the pretrained weights and datasets into the main directory. 
 
