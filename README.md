@@ -56,9 +56,8 @@ E.g.,
 python train_patch.py sidestreet experiment01
 ```
 
-
-
 ### Digitally testing the patch
+After you have generated a patch, you can digitally test your patch with ```digital_test.py```. 
 
 
 ### Physically testing the patch
