@@ -33,7 +33,7 @@ You can download the YOLOv3 COWC pretrained weights (```weights``` folder), side
 
 NOTE: Make sure you add the four folders into the main directory. 
 
-### Optimising an adversarial patch
+## Optimising an adversarial patch
 There are three main python scripts used to optimise an adversarial patch:
 
 * ```patch_config.py``` - contains the training parameters of the patch such as what scene to attack, to apply weather transformations or not, patch size, number of patches, number of training epochs, learning rate, etc.
@@ -51,13 +51,14 @@ E.g.,
 python train_patch.py sidestreet experiment01
 ```
 
-### Digitally testing the patch
+## Digitally testing the patch
 After you have generated a patch, you can digitally test your patch with ```digital_test.py```. Open the script and adjust the 'attack settings' accordingly. More details are provided in the script.
 
-### Physically testing the patch
+## Physically testing the patch
 We provide some data that comprises of images of our patches in the scene of attack (sidestreet and carpark). You can evalaute these images with ```physical_test.py```. Open the script and adjust the 'attack settings' accordingly. More details are provided in the script.
 
-
+## Help
+If there are any issues with setting up and/or running the code, please let me know. Enjoy!
 
 
 
