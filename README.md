@@ -57,10 +57,7 @@ After you have generated a patch, you can digitally test your patch with ```digi
 ## Physically testing the patch
 We provide some data that comprises of images of our patches in the scene of attack (sidestreet and carpark). You can evalaute these images with ```physical_test.py```. Open the script and adjust the 'attack settings' accordingly. More details are provided in the script.
 
-## Help
-If there are any issues with setting up and/or running the code, please let me know. Enjoy!
-
-## Updates
+## Help and updates
 When time permits, I will update the repository based on the issues others have at setting up and running the code.
 
 
