@@ -15,12 +15,34 @@ This work is based on the paper: https://openaccess.thecvf.com/content/WACV2022/
 }
 
 ```
-## Getting Started
-We used Python 3.7 to run our code and Anaconda to install the following libraries in the following paper:
+## Getting started
 
-* conda install pytorch==1.7.1 torchvision==0.8.2 cudatoolkit==10.1 -c pytorch
+### Installations
+We used Python 3.7 to run our code and Anaconda to install the following libraries by:
+
+* conda install opencv
+* conda install pytorch==1.7.1 torchvision==0.8.2 cudatoolkit=10.1 -c pytorch
 * pip install tensorboardX tensorboard
 * conda install matplotlib
+* conda install -c conda-forge tqdm
+
+### Pretrained weights
+You can download the YOLOv3 COWC pretrained weights at: 
+
+### Datasets
+You can download the sidestreet and carpark datasets at: 
+
+We also provide data from our physical-world test at:
+
+NOTE: Make sure you add the pretrained weights and datasets into the main directory. 
+
+### Optimising an adversarial patch
+
+
+### Digitally test the patch
+
+
+### Physically test the patch
 
 
 
