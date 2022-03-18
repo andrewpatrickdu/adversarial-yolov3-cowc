@@ -21,11 +21,11 @@ This work is based on the paper: https://openaccess.thecvf.com/content/WACV2022/
 We used Python 3.7 to run our code and Anaconda to install the following libraries by:
 
 ```
-* conda install opencv
-* conda install pytorch==1.7.1 torchvision==0.8.2 cudatoolkit=10.1 -c pytorch
-* pip install tensorboardX tensorboard
-* conda install matplotlib
-* conda install -c conda-forge tqdm
+conda install opencv
+conda install pytorch==1.7.1 torchvision==0.8.2 cudatoolkit=10.1 -c pytorch
+pip install tensorboardX tensorboard
+conda install matplotlib
+conda install -c conda-forge tqdm
 ```
 
 ### Pretrained weights
@@ -41,6 +41,8 @@ NOTE: Make sure you add the pretrained weights and datasets into the main direct
 ### Optimising an adversarial patch
 There are three main phython scripts used to optimise an adversarial patch:
 
+* patch_config.py - contains the training parameters of the patch such as what scene to attack, to apply weather transformations or not, patch size, number of patches, number of training epochs, learning rate, etc.
+* load_data.py - defines important functions used in the patch optimisation process such as extracting the maximum objectness score from an image, calculating NPS and TV, and patch transformation (geometric and colour space).
 * 
 
 
