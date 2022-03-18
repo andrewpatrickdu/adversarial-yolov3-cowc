@@ -29,7 +29,7 @@ conda install -c conda-forge tqdm
 ```
 
 ### Pretrained weights and datasets
-You can download the YOLOv3 COWC pretrained weights (```weights``` folder), sidestreet and carpark datasets (```#sidestreet``` and ```#carpark``` folders), and data from our physical-world test (```physical_test``` folder) at: https://1drv.ms/u/s!AksNuJzukf5pgsd2F01m59Ob08bFLQ?e=ZzoIQI
+You can download the YOLOv3 COWC pretrained weights (```weights``` folder), sidestreet and carpark datasets (```#sidestreet``` and ```#carpark``` folders), and data from our physical-world test (```physical_test``` folder) at: https://1drv.ms/u/s!AksNuJzukf5pgsd2F01m59Ob08bFLQ?e=qeWKYN
 
 NOTE: Make sure you add the four folders into the main directory. 
 
