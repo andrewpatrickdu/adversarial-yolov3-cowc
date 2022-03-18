@@ -18,7 +18,7 @@ This work is based on the paper: https://openaccess.thecvf.com/content/WACV2022/
 ## Getting started
 
 ### Installations
-We used Python 3.7 to run our code and Anaconda to install the following libraries by:
+We used Python 3.7 to write/run our code and Anaconda to install the following libraries:
 
 ```
 conda install opencv
