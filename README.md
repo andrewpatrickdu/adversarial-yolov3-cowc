@@ -45,9 +45,17 @@ There are three main phython scripts used to optimise an adversarial patch:
 * load_data.py - defines important functions used in the patch optimisation process such as extracting the maximum objectness score from an image, calculating NPS and TV, and patch transformation (geometric and colour space).
 * train_patch.py - used to optimise an adversarial patch. 
 
+You can generate a patch by running the command:
+
 ```
 python train_patch.py {experiment} {folder_name}
 ```
+E.g., 
+
+```
+python train_patch.py sidestreet experiment01
+```
+
 
 
 ### Digitally testing the patch
