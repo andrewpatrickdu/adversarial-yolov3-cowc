@@ -31,7 +31,7 @@ conda install -c conda-forge tqdm
 ### Pretrained weights and datasets
 You can download the YOLOv3 COWC pretrained weights (```weights``` folder), sidestreet and carpark datasets (```#sidestreet``` and ```#carpark``` folders), and data from our physical-world test (```physical_test``` folder) at: https://universityofadelaide.box.com/s/ord10z9adqwcm3wcyckzqhqzy433vj8f
 
-NOTE: Make sure you add the four folders into the main directory. 
+NOTE: Make sure you add the four folders into the main directory (adversarial-yolov3-cowc). 
 
 ## Optimising an adversarial patch
 There are three main python scripts used to optimise an adversarial patch:
