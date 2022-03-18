@@ -60,7 +60,8 @@ We provide some data that comprises of images of our patches in the scene of att
 ## Help
 If there are any issues with setting up and/or running the code, please let me know. Enjoy!
 
-
+## Updates
+When time permits, I will update the repository based on the issues others have at setting up and running the code.
 
 
 
