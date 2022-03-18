@@ -20,11 +20,13 @@ This work is based on the paper: https://openaccess.thecvf.com/content/WACV2022/
 ### Installations
 We used Python 3.7 to run our code and Anaconda to install the following libraries by:
 
+```
 * conda install opencv
 * conda install pytorch==1.7.1 torchvision==0.8.2 cudatoolkit=10.1 -c pytorch
 * pip install tensorboardX tensorboard
 * conda install matplotlib
 * conda install -c conda-forge tqdm
+```
 
 ### Pretrained weights
 You can download the YOLOv3 COWC pretrained weights at: 
@@ -37,12 +39,15 @@ We also provide data from our physical-world test at:
 NOTE: Make sure you add the pretrained weights and datasets into the main directory. 
 
 ### Optimising an adversarial patch
+There are three main phython scripts used to optimise an adversarial patch:
+
+* 
 
 
-### Digitally test the patch
+### Digitally testing the patch
 
 
-### Physically test the patch
+### Physically testing the patch
 
 
 
