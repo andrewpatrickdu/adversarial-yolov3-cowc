@@ -13,7 +13,6 @@ This work is based on the paper: https://openaccess.thecvf.com/content/WACV2022/
     year      = {2022},
     pages     = {1796-1806}
 }
-
 ```
 ## Getting started
 
